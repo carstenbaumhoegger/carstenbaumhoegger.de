@@ -1,1 +1,46 @@
 /* Add here all your css styles (customizations) */
+.promo-section h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 200;
+    padding: 10px 75px;
+    position: relative;
+    border-bottom: solid 1px #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.promo-section h3 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 200;
+    padding: 10px 75px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title-v1 h1,
+.title-v1 h2 {
+    color: #444;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.title-v1 h3 {
+    color: #444;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+div .cube-portfolio {
+    padding-bottom: 75px;
+}
