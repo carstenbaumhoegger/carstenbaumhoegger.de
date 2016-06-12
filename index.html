@@ -104,8 +104,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 			<div class="container valign__middle">
 					<h2>Willkommen auf meiner Webseite!</h2>
 				<div class="promo-next">
-					<span class="page-scroll animated" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeIn;"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#about">Mehr erfahren</a></span>
-					<span class="page-scroll animated" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeIn;"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#portfolio">Portfolio</a></span>
+					<span class="animated" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeIn;"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#about">Mehr erfahren</a></span>
+					<span class="animated" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeIn;"><a class="btn-u btn-brd btn-brd-hover btn-u-light" href="#portfolio">Portfolio</a></span>
 				</div>
 			</div>
 			<!-- Promo Content END -->
@@ -115,11 +115,11 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	<!-- Promo block END -->
 
 	<!--  About Section -->
-	<section id="about" class="about-section section-first">
+	<section id="about" class="about-section">
 		<div class="container">
 			<div class="title-v1">
 				<h1>&Uuml;ber mich</h1>
-				<p>Hallo! Ich bin Carsten.<br>Sch&ouml;n, dass du meiner Seite einen Besuch abstattest!<br>Ich bin 21 Jahre alt und bin in den letzten Z&uuml;gen meines Studiums der Kommunikations- und Medieninformatik. </p>
+				<p>Hallo! Ich bin Carsten.<br>Sch&ouml;n, dass du meiner Seite einen Besuch abstattest!<br>Aktuell bin ich 21 Jahre alt und in den letzten Z&uuml;gen meines Studiums der Kommunikations- und Medieninformatik. </p>
 				<h3>Kompetenzen</h3>
 				<p>Ein kleiner Einblick in Fähigkeiten, die ich in den letzten Jahren erworben habe.</p>
 			</div>
@@ -147,7 +147,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 								<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
 							</span>
 					<h4>Web-Entwicklung</h4>
-					<p>Ich habe während des Studiums und in meiner Freizeit einige Webseiten umgesetzt.</p>
+					<p>Ich habe während des Studiums und in meiner Freizeit einige Webseiten und WebApps mit modernen Web-Techniken (HTML5, CSS3, AngularJS) umgesetzt.</p>
 				</div>
 			</div>
 		</div>
@@ -159,22 +159,10 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 		<div class="container">
 			<div class="title-v1">
 				<h1>Mein Portfolio</h1>
-				<p>Ein <strong>kurzer</strong> &Uuml;berblick &uuml;ber Projekte von mir und Projekte, an denen ich mitgewirkt habe.</p>
-<!--
-				<p>We do <strong>things</strong> differently company providing key digital services. <br>
-					Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
--->
+				<p>Ein kurzer &Uuml;berblick &uuml;ber Projekte von mir und Projekte, an denen ich mitgewirkt habe.</p>
 				</div>
 
-
 				<div class="cube-portfolio">
-					<!--
-					<div id="filters-container" class="cbp-l-filters-button">
-						<div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div>
-						<div data-filter=".print" class="cbp-filter-item"> Print </div>
-						<div data-filter=".web-design" class="cbp-filter-item"> Web Design </div>
-						<div data-filter=".motion" class="cbp-filter-item"> Motion </div>
-					</div><!--/end Filters Container-->
 
 					<div id="grid-container" class="cbp-l-grid-gallery">
 						<div class="cbp-item print motion">
@@ -247,7 +235,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
 			<div class="title-v1">
 				<h3>Partner</h3>
-				<p>Viele Projekte habe ich mit meinem guten Freund Jonathan Heilmann durchgeführt.<br> Zu finden ist er <strong><a href="http://jonathan-heilmann.de/" target="_blank">hier</a></strong>.</p>
+				<p>Viele Projekte habe ich mit meinem guten Freund Jonathan Heilmann durchgeführt.<br> Seite Homepage findest du <strong><a href="http://jonathan-heilmann.de/" target="_blank">hier</a></strong>.</p>
 			</div>
 			</div>
 
@@ -267,13 +255,6 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 										target="_blank"><img src="assets/img/clients/tcmv.png"
 															 alt="Tambourcorps und Musikverein Wewelsburg e.V."></a>
 					</li>
-					<!--
-					<li class="item"><a href="#"><img src="assets/img/clients/inspiring.png" alt=""></a></li>
-					<li class="item"><a href="#"><img src="assets/img/clients/fred-perry.png" alt=""></a></li>
-					<li class="item"><a href="#"><img src="assets/img/clients/emirates.png" alt=""></a></li>
-					<li class="item"><a href="#"><img src="assets/img/clients/baderbrau.png" alt=""></a></li>
-					<li class="item"><a href="#"><img src="assets/img/clients/inspiring.png" alt=""></a></li>
-					-->
 				</ul>
 			</div>
 		</div>
@@ -361,41 +342,41 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 	<!-- End Contact Section -->
 
 	<!-- JS Global Compulsory -->
-	<script src="assets/plugins/jquery/jquery.min.js"></script>
-	<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script src="assets/plugins/jquery/jquery-2.2.4.min.js"></script>
+	<!--<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>-->
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<!-- JS Implementing Plugins -->
-	<script src="assets/plugins/smoothScroll.js"></script>
-	<script src="assets/plugins/jquery.easing.min.js"></script>
-	<script src="assets/plugins/pace/pace.min.js"></script>
+	<!--<script src="assets/plugins/smoothScroll.js"></script>-->
+	<!--<script src="assets/plugins/jquery.easing.min.js"></script>-->
+	<!--<script src="assets/plugins/pace/pace.min.js"></script>-->
 	<script src="assets/plugins/jquery.parallax.js"></script>
-	<script src="assets/plugins/counter/waypoints.min.js"></script>
+	<!--<script src="assets/plugins/counter/waypoints.min.js"></script>-->
 	<script src="assets/plugins/counter/jquery.counterup.min.js"></script>
 	<script src="assets/plugins/owl-carousel/owl.carousel.js"></script>
 	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
 	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
 	<script src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-	<script src="assets/plugins/modernizr.js"></script>
-	<script src="assets/plugins/login-signup-modal-window/js/main.js"></script> <!-- Gem jQuery -->
+	<!--<script src="assets/plugins/modernizr.js"></script>-->
+	<!--<script src="assets/plugins/login-signup-modal-window/js/main.js"></script>--> <!-- Gem jQuery -->
 	<script src="assets/plugins/backstretch/backstretch-ini.js"></script> <!-- promo -->
 
 	<!-- JS Page Level-->
 	<script src="assets/js/one.app.js"></script>
-	<script src="assets/js/forms/login.js"></script>
+	<!--<script src="assets/js/forms/login.js"></script>-->
 	<script src="assets/js/forms/contact.js"></script>
 	<script src="assets/js/plugins/pace-loader.js"></script>
 	<script src="assets/js/plugins/owl-carousel.js"></script>
-	<script src="assets/js/plugins/style-switcher.js"></script>
+	<!--<script src="assets/js/plugins/style-switcher.js"></script>-->
 	<script src="assets/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"></script>
 	<script>
 		$(document).ready(function() {
 			App.init();
 			App.initCounter();
 			App.initParallaxBg();
-			LoginForm.initLoginForm();
+			//LoginForm.initLoginForm();
 			ContactForm.initContactForm();
 			OwlCarousel.initOwlCarousel();
-			StyleSwitcher.initStyleSwitcher();
+			//StyleSwitcher.initStyleSwitcher();
 			//RevolutionSlider.initRSfullScreen();
 		});
 	</script>
