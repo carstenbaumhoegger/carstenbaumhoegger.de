@@ -49,3 +49,9 @@ div .cube-portfolio {
 .cbp-l-inline-view {
     text-transform: uppercase;
 }
+
+/* custom footer background picture */
+.contacts-section {
+    background: #333 url(../img/bg/working_with_clients.jpg) center fixed;
+    background-size: cover;
+}
