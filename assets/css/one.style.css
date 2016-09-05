@@ -663,7 +663,6 @@ a:hover {
   text-align: center;
   margin-bottom: 30px;
 }
-/*
 .promo-section h2:after,
 .promo-section h2:before {
   font-size: 16px;
@@ -674,7 +673,6 @@ a:hover {
   top: 50%;
   margin-top: -8px;
 }
-*/
 .promo-section h2:after {
   right: 4%;
 }
