@@ -19,4 +19,5 @@
 
 ## How to update Let's Encrypt SSL certificate
 https://certbot.eff.org/#ubuntuxenial-apache
-Current certificate is valid 08.12.2016
+
+Current certificate is valid until 08.12.2016
